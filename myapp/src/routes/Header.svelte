@@ -3,8 +3,8 @@
 
     <nav>
         <ul>
-            <a href="/"><li>Home</li></a>
-            <a href="/portfolio"><li>Portfolio</li></a>
+            <a href="/"><li><h3>Home</h3></li></a>
+            <a href="/portfolio"><li><h3>Portfolio</h3></li></a>
         </ul>
     </nav>
 
@@ -29,8 +29,11 @@
     li {
         flex-direction: column;
         align-items: center;
-        margin: 10px;
-        padding: 20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:30px;
+        padding-right:30px;
+        margin:10px;
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
