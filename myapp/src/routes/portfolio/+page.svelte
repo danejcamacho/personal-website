@@ -11,17 +11,26 @@
         <ul>
             <li>
                 <a target="_blank" href="https://github.com/danejcamacho/monkey-dating">
-                    <h2>Monkey Dating Website</h2>
-                    <h3>A website built using svelte for acmCSUF's Mini-hackathon</h3>
+                    Monkey Dating Website
                 </a>
+                    <h3>A website built using svelte for acmCSUF's Mini-hackathon</h3>
+                
             </li>
 
             <li>
                 <a target="_blank" href="https://github.com/danejcamacho/breast-cancer-AI-models">
-                    <h2>Breast Cancer Machine Learning Models</h2>
-                    <h3>An assortment of different ML models as applied to a dataset of breast cancer cells to predict whether a cell is malignant or benign</h3>
+                    Breast Cancer Machine Learning Models
                 </a>
-                </li>
+                    <h3>An assortment of different ML models as applied to a dataset of breast cancer cells to predict whether a cell is malignant or benign</h3>
+                
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/hellokev/Sandwich-Project">
+                    Random Sandwich Generator
+                </a>
+                    <h3>A Website built with Sveltekit that generates a random pixel art sandwich</h3>
+                
+            </li>
         </ul>
     </body>
     
@@ -59,11 +68,21 @@
     .subtitle {
         color: rgb(51, 174, 51);
     }
-    a:link { text-decoration: none; }
-    a:visited { 
+    a {
+
+        font-style:italic;
+        font-size: 30px;
+        box-shadow: inset 0 0 0 0 #54b3d6;
+        color: #3db1db;
+        margin: 0px;
+        padding: 10px;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        
         text-decoration: none;
-        color: #000000
-     }
-    a:hover { text-decoration: none; }
-    a:active { text-decoration: none; }
+
+    }
+    a:hover {
+        box-shadow: inset 1000px 0 0 0 #2ec0f5;
+        color: white;
+    }
 </style>
